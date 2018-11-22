@@ -1,2 +1,2 @@
-# Cloud-Development
-Cloud services learning samples
+# Google Cloud -Development
+Google Cloud services learning samples

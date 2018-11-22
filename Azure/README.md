@@ -1,2 +1,2 @@
-# Cloud-Development
-Cloud services learning samples
+# Microsoft Azure
+Azure Services services learning samples

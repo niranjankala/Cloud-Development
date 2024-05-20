@@ -202,6 +202,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405200551477_InitialCreate.cs" />
+    <Compile Include="Migrations\202405200551477_InitialCreate.Designer.cs">
+      <DependentUpon>202405200551477_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405200555200_AddProperty.cs" />
+    <Compile Include="Migrations\202405200555200_AddProperty.Designer.cs">
+      <DependentUpon>202405200555200_AddProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MyDatabaseContext.cs" />
     <Compile Include="Models\Todo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -275,6 +284,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202405200551477_InitialCreate.resx">
+      <DependentUpon>202405200551477_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405200555200_AddProperty.resx">
+      <DependentUpon>202405200555200_AddProperty.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
